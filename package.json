@@ -1,6 +1,6 @@
 {
   "name": "milldrew-gauth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "author": "Milldrew",
   "main": "dist/app.module.js",
