@@ -4,7 +4,7 @@
   "description": "",
   "author": "Milldrew",
   "main": "dist/app.module.js",
-  "type": "dist/app.module.d.ts",
+  "types": "dist/app.module.d.ts",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
