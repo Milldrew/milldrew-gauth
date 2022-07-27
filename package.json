@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "",
   "author": "Milldrew",
-  "main": "src/app.module.ts",
+  "main": "dist/app.module.js",
+  "type": "dist/app.module.d.ts",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
