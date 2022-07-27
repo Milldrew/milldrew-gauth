@@ -2,7 +2,8 @@
   "name": "milldrew-gauth",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Milldrew",
+  "main": "src/app.module.ts",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
