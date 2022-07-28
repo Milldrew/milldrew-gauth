@@ -6,20 +6,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.GoogleAuthModule = void 0;
+exports.GoogleOathService = void 0;
 const common_1 = require("@nestjs/common");
-const config_1 = require("@nestjs/config");
-const app_controller_1 = require("./app.controller");
-const app_service_1 = require("./app.service");
-const google_oath_strategy_1 = require("./google-oath/google-oath.strategy");
-let GoogleAuthModule = class GoogleAuthModule {
+let GoogleOathService = class GoogleOathService {
 };
-GoogleAuthModule = __decorate([
-    (0, common_1.Module)({
-        imports: [config_1.ConfigModule.forRoot()],
-        controllers: [app_controller_1.AppController],
-        providers: [app_service_1.AppService, google_oath_strategy_1.GoogleOathStrategy],
-    })
-], GoogleAuthModule);
-exports.GoogleAuthModule = GoogleAuthModule;
-//# sourceMappingURL=app.module.js.map
+GoogleOathService = __decorate([
+    (0, common_1.Injectable)()
+], GoogleOathService);
+exports.GoogleOathService = GoogleOathService;
+//# sourceMappingURL=google-oath.service.js.map
